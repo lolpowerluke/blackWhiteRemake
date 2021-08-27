@@ -41,6 +41,10 @@
 #app-mount .wrapper-25eVIn foreignObject{
     border-radius: 8px;
     mask: none;
+    background: linear-gradient(to bottom left, white, gray);
+}
+#app-mount .wrapper-25eVIn foreignObject:hover {
+    border-radius: 10px;
 }
 .homeIcon-FuNwkv path{
     animation: rainbowhomeicon 5s linear infinite;
