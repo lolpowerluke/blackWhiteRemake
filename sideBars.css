@@ -27,3 +27,37 @@
     background-color: var(--background-tertiary);
     position: absolute;
 }
+/*homeButton color*/
+#app-mount .wrapper-25eVIn foreignObject{
+    border-radius: 8px;
+    mask: none;
+}
+#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    animation: rainbowhomeicon-2 5s linear infinite;
+}
+#app-mount .wrapper-25eVIn foreignObject:hover {
+    border-radius: 10px;
+}
+.homeIcon-FuNwkv path{
+    animation: rainbowhomeicon 5s linear infinite;
+}
+@keyframes rainbowhomeicon {
+    0%   {fill: red;}
+    16%  {fill: orange;}
+    33%  {fill: yellow;}
+    50%  {fill: lime;}
+    58%  {fill: cyan;}
+    66%  {fill: blue;}
+    83%  {fill: magenta;}
+    100% {fill: red;}
+}
+@keyframes rainbowhomeicon-2 {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    16%  {background-color: rgba(255, 166, 0, 0.3);}
+    33%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 255, 0, 0.3);}
+    58%  {background-color: rgba(0, 255, 255, 0.3);}
+    66%  {background-color: rgba(0, 0, 255, 0.3);}
+    83%  {background-color: rgba(255, 0, 255, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+}

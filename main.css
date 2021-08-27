@@ -37,27 +37,3 @@
         background-color: var(--watermark-color-2);
     }
 }
-/*homeButton color*/
-#app-mount .wrapper-25eVIn foreignObject{
-    border-radius: 8px;
-    mask: none;
-}
-#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-    background: var(--background-primary);
-}
-#app-mount .wrapper-25eVIn foreignObject:hover {
-    border-radius: 10px;
-}
-.homeIcon-FuNwkv path{
-    animation: rainbowhomeicon 5s linear infinite;
-}
-@keyframes rainbowhomeicon {
-    0%   {fill: red;}
-    16%  {fill: orange;}
-    33%  {fill: yellow;}
-    50%  {fill: lime;}
-    58%  {fill: cyan;}
-    66%  {fill: blue;}
-    83%  {fill: magenta;}
-    100% {fill: red;}
-}
