@@ -65,3 +65,36 @@
 .listItem-GuPuDH:hover .numberBadge-2s8kKX {
     background-color: rgb(184, 184, 184) !important;
 }
+/*RGB + white border*/
+.selected-3LIHYU,
+.selected-aXhQR6 {
+    border-radius: 0 8px 0 0;
+    border-left: 1px solid white;
+    background-color: var(--background-modifier-selected);
+}
+.selected-3LIHYU .content-1x5b-n,
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: transparent;
+}
+.selected-aXhQR6::after,
+.selected-3LIHYU::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin-bottom:-1px;
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    display: block;
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    position: relative;
+    z-index: 1;
+}
+@keyframes gradient-border {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 130% 0;
+    }
+}
