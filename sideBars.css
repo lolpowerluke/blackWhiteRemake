@@ -1,0 +1,29 @@
+/*this is for the dm list, chanel list and guild list*/
+.container-3baos1 {
+    position: absolute;
+    top: 0;
+    width: 230px;
+}
+.sidebar-2K8pFh {
+    margin-top: 52px;
+    width: 240px !important;
+}
+.container-6sXIoE {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-top: 1px solid var(--background-modifier-accent);
+}
+.tutorialContainer-2sGCg9 {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--background-tertiary);
+}
+.tutorialContainer-2sGCg9::before {
+    content: "";
+    height: 10px;
+    width: 100%;
+    top: -10px;
+    background-color: var(--background-tertiary);
+    position: absolute;
+}
