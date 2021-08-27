@@ -42,3 +42,29 @@
     mask: none;
     border-radius: 8px;
 }
+/*toolbar at the top of chat*/
+.children-19S4PO {
+    transition: 0.5s 0.1s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.toolbar-1t6TWx {
+    transition: 0.5s 0.1s;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.container-1r6BKw .children-19S4PO:hover, 
+.container-1r6BKw  .toolbar-1t6TWx:hover {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container-1r6BKw {
+    height: 0px !important;
+}
+.container-1r6BKw .children-19S4PO, .container-1r6BKw .toolbar-1t6TWx {
+    padding: 5px;
+    top: 25px;
+    position: relative;
+    background: var(--background-secondary-alt);
+    border-radius: 7px;
+}
