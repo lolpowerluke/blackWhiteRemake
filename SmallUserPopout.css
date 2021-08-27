@@ -1,0 +1,23 @@
+/*about me*/
+.aboutMeSection-1Fw5Ia:hover {
+    max-height: 500px;
+}
+.aboutMeSection-1Fw5Ia {
+    max-height: 20px;
+    transition: max-height 1s;
+    overflow: hidden;
+}
+.aboutMeTitle-1IYtPE::after {
+    content: "";
+    display:block;
+    width:16px;
+    height:16px;
+    background: url(https://i.imgur.com/Uww94O4.png);
+    background-size: contain;
+    margin-left: 5px;
+    transform: rotate(90deg);
+    transition: transform 0.5s;
+}
+.aboutMeSection-1Fw5Ia:hover .aboutMeTitle-1IYtPE::after {
+    transform: rotate(-90deg);
+}
