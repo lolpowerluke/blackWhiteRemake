@@ -1,4 +1,4 @@
-/*this is for the dm list, chanel list and guild list*/
+/*this is for the dm list, channel list and guild list*/
 .container-3baos1 {
     position: absolute;
     top: 0;
@@ -26,6 +26,14 @@
     top: -10px;
     background-color: var(--background-tertiary);
     position: absolute;
+}
+#app-mount .content-1x5b-n, 
+#app-mount .channel-2QD9_O .layout-2DM8Md {
+    background-color: transparent;
+}
+.channel-2QD9_O:hover,
+.containerDefault--pIXnN:hover {
+    background-color: rgba(128, 128, 128, 0.4);
 }
 /*homeButton color*/
 #app-mount .wrapper-25eVIn foreignObject{
