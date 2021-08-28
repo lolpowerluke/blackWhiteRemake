@@ -251,7 +251,7 @@
 .activityProfile-2bJRaP {
     margin: 0px 8px 15px 15px;
     padding: 10px;
-    background: var(--back-color-boxes);
+    background: var(--back-color-boxes-playing);
     border-bottom: 4px solid rgb(var(--border-color-blue));
     border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
     border-left: 4px solid rgb(var(--playing-color));
@@ -263,7 +263,7 @@
 .activityProfile-2bJRaP {
     margin: 15px 8px 15px 8px;
     padding: 10px;
-    background: var(--back-color-boxes);
+    background: var(--back-color-boxes-playing);
     border-bottom: 4px solid rgb(var(--border-color-blue));
     border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
     border-left: 4px solid rgb(var(--playing-color));
