@@ -15,3 +15,19 @@
 .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: var(--user-popout);
 }
+/*search popout*/
+#app-mount .elevationBorderHigh-2WYJ09 {
+    background-color: var(--user-popout);
+}
+.option-96V44q {
+    background-color: var(--search-buttons);
+}
+#app-mount .option-96V44q:after {
+    background: linear-gradient(to right, var(--search-buttons), var(--search-gradient-2nd-color), var(--search-gradient-2nd-color));
+}
+#app-mount .option-96V44q.selected-rZcOL- {
+    background-color: var(--search-buttons-hover);
+}
+#app-mount .option-96V44q.selected-rZcOL-:after {
+    background: linear-gradient(to right, var(--search-buttons-hover), var(--search-gradient-2nd-color), var(--search-gradient-2nd-color));
+}
