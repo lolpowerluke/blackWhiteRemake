@@ -31,3 +31,13 @@
 #app-mount .option-96V44q.selected-rZcOL-:after {
     background: linear-gradient(to right, var(--search-buttons-hover), var(--search-gradient-2nd-color), var(--search-gradient-2nd-color));
 }
+/*autoComplete popup*/
+#app-mount .selected-1Tbx07 {
+    background-color: var(--autofill-option-hovered);
+}
+.categoryHeader-O1zU94 {
+    background-color: var(--autofill-dividers);
+}
+#app-mount .autocomplete-1vrmpx {
+    background-color: var(--user-popout);
+}
