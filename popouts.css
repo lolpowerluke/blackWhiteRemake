@@ -1,0 +1,10 @@
+/*create/join server popup*/
+.container-UC8Ug1 {
+    background-color: var(--create-server-buttons);
+}
+.container-UC8Ug1:hover {
+    background-color: var(--create-server-buttons-hover);
+}
+.container-1CE3eW .footer-2gL1pp {
+    background-color: var(--user-popout);
+}
