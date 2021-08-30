@@ -8,3 +8,10 @@
 .container-1CE3eW .footer-2gL1pp {
     background-color: var(--user-popout);
 }
+/*upload popout*/
+#app-mount .uploadModal-2ifh8j {
+    background-color: var(--user-popout);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: var(--user-popout);
+}
